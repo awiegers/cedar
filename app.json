@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "cedar",
+    "slug": "cedar",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/cedar_tile.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.adub04.cedar"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.adub04.cedar"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f18c6faa-b8e2-484f-a0d7-476635bf83eb"
+      }
+    },
+    "owner": "adub04"
+  }
+}
